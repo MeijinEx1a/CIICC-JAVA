@@ -6,6 +6,9 @@ class Afritada {
     System.out.println("Afritada = "+java.util.Arrays.toString(Ingredients)+"🍲 \n");
   }
 }
+
+
+
 // extend Afritada Class here
 class Mechado extends Afritada{
   public void showIngredients() {
@@ -13,11 +16,12 @@ class Mechado extends Afritada{
       {"Tomato Sauce",
        "Meat",
        "Potatoes & Carrots",
-       "Tomato Paste"
-      };
+       "Tomato Paste"};
     System.out.println("Mechado = "+java.util.Arrays.toString(Ingredients)+"🍲 \n");
   }
 }
+
+
 class Menudo extends Afritada{
   public void showIngredients() {
     String[] Ingredients = 
@@ -26,7 +30,7 @@ class Menudo extends Afritada{
        "Potatoes & Carrots",
        "Liver Spread",
        "Raisins",
-       "Hotdog",};
+       "Hotdog"};
     System.out.println("Menudo = "+java.util.Arrays.toString(Ingredients)+"🍲 \n");
   }
 }
@@ -41,7 +45,6 @@ class Caldereta extends Afritada {
        "Liver Spread",
        "Raisins",
        "Hotdog",
-       //"Siling Labuyo",
        "Cheese"};
     System.out.println("Caldereta = "+java.util.Arrays.toString(Ingredients)+"🍲 \n");
   }
@@ -59,7 +62,5 @@ public class Task131 {
         meal2.showIngredients();
         meal3.showIngredients();
         meal4.showIngredients();
-      
-        
     }
 }
